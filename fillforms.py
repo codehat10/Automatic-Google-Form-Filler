@@ -26,3 +26,26 @@ while(count<30):
     radiobuttons[4].click()
     checkboxes[0].click()
     nextbutton[0].click()
+    
+    #page 8
+
+    textboxes =  browser.find_elements(By.CLASS_NAME,"whsOnd.zHQkBf")
+    radiobuttons =  browser.find_elements(By.CLASS_NAME,"AB7Lab.Id5V1")
+    linearscale =  browser.find_elements(By.CLASS_NAME,"AB7Lab.Id5V1")
+    submitbutton =  browser.find_elements(By.CLASS_NAME,"NPEfkd.RveJvd.snByac")
+    nextbutton = browser.find_elements(By.CLASS_NAME,"NPEfkd.RveJvd.snByac")
+
+    radiobuttons[0].click()
+    radiobuttons[random.randint(2,3)].click()
+    radiobuttons[random.randint(4,8)].click()
+    radiobuttons[random.randint(9,11)].click()
+    radiobuttons[12].click()
+    radiobuttons[random.randint(14,15)].click()
+    #range 16-25
+    radiobuttons[random.randint(21,25)].click()
+    radiobuttons[random.randint(31,34)].click()
+    radiobuttons[random.randint(41,43)].click()
+    radiobuttons[random.randint(51,54)].click()
+    submitbutton[1].click()
+
+    browser.get("https://docs.google.com/forms/d/e/1FAIpQLSe2YagqIm8HIi_UTVG1eUyDoCMJSyrwUnr9-G2sOe1udwx6Kw/viewform")

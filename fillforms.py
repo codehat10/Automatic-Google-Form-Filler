@@ -51,6 +51,14 @@ while(count<30):
     radiobuttons[83].click()
     radiobuttons[random.randint(93,97)].click()
     nextbutton[1].click()
+    
+    #page 6
+
+    textboxes =  browser.find_elements(By.CLASS_NAME,"whsOnd.zHQkBf")
+    radiobuttons =  browser.find_elements(By.CLASS_NAME,"AB7Lab.Id5V1")
+    linearscale =  browser.find_elements(By.CLASS_NAME,"AB7Lab.Id5V1")
+    submitbutton =  browser.find_elements(By.CLASS_NAME,"NPEfkd.RveJvd.snByac")
+    nextbutton = browser.find_elements(By.CLASS_NAME,"NPEfkd.RveJvd.snByac")
 
     
     #page 8

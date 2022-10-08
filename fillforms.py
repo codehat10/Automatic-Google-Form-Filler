@@ -33,6 +33,14 @@ while(count<30):
     linearscale =  browser.find_elements(By.CLASS_NAME,"AB7Lab.Id5V1")
     submitbutton =  browser.find_elements(By.CLASS_NAME,"NPEfkd.RveJvd.snByac")
     nextbutton = browser.find_elements(By.CLASS_NAME,"NPEfkd.RveJvd.snByac")
+    
+    #maths physics che bio ss eng
+    radiobuttons[random.randint(6,9)].click()
+    radiobuttons[random.randint(16,19)].click()
+    radiobuttons[random.randint(25,29)].click()
+    radiobuttons[random.randint(34,39)].click()
+    radiobuttons[random.randint(44,47)].click()
+    radiobuttons[random.randint(55,58)].click()
 
     
     #page 8

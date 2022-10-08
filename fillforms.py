@@ -41,6 +41,16 @@ while(count<30):
     radiobuttons[random.randint(34,39)].click()
     radiobuttons[random.randint(44,47)].click()
     radiobuttons[random.randint(55,58)].click()
+    
+    #b c10 60-62, bc12 63 - 65
+    radiobuttons[random.randint(60,61)].click()
+    radiobuttons[63].click()
+    radiobuttons[random.randint(66,69)].click()
+    radiobuttons[random.randint(76,77)].click()
+    radiobuttons[random.randint(78,79)].click()
+    radiobuttons[83].click()
+    radiobuttons[random.randint(93,97)].click()
+    nextbutton[1].click()
 
     
     #page 8

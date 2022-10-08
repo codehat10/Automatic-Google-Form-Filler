@@ -27,6 +27,14 @@ while(count<30):
     checkboxes[0].click()
     nextbutton[0].click()
     
+    #page3
+    textboxes =  browser.find_elements(By.CLASS_NAME,"whsOnd.zHQkBf")
+    radiobuttons =  browser.find_elements(By.CLASS_NAME,"AB7Lab.Id5V1")
+    linearscale =  browser.find_elements(By.CLASS_NAME,"AB7Lab.Id5V1")
+    submitbutton =  browser.find_elements(By.CLASS_NAME,"NPEfkd.RveJvd.snByac")
+    nextbutton = browser.find_elements(By.CLASS_NAME,"NPEfkd.RveJvd.snByac")
+
+    
     #page 8
 
     textboxes =  browser.find_elements(By.CLASS_NAME,"whsOnd.zHQkBf")
